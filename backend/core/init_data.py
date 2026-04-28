@@ -23,25 +23,25 @@ def _init_sync(session: Session):
         session.add(role)
         session.flush()
 
-    user = session.scalar(select(User).where(User.username == "root"))
+    user = session.scalar(select(User).where(User.username == "nutc30"))
     if not user:
         user = User(
-            username="root",
+            username="nutc30",
             password=auth.pwd_context.hash("root"),
         )
         session.add(user)
         session.flush()
 
-    # root 的角色指派規則
+    # nutc30 的角色指派規則
     g_rule = session.scalar(
         select(CasbinRule).where(
             CasbinRule.ptype == "g",
-            CasbinRule.v0 == "u:root",
+            CasbinRule.v0 == "u:nutc30",
             CasbinRule.v1 == "r:root",
         )
     )
     if not g_rule:
-        session.add(CasbinRule(ptype="g", v0="u:root", v1="r:root"))
+        session.add(CasbinRule(ptype="g", v0="u:nutc30", v1="r:root"))
         session.flush()
 
     # ── 2. 建立 root 的 casbin policy（允許存取所有頁面）─────────────
