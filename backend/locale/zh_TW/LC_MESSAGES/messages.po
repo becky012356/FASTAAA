@@ -1,0 +1,399 @@
+# 繁體中文翻譯檔
+# GemioERP™ - 將 fastapi-amis-admin 框架的簡體中文覆蓋為繁體中文
+# 共 128 個字串
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: zh_TW\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+msgid "用户名"
+msgstr "用戶名"
+
+msgid "密码"
+msgstr "密碼"
+
+msgid "登录"
+msgstr "登入"
+
+msgid "退出登录"
+msgstr "登出"
+
+msgid "仪表盘"
+msgstr "儀表板"
+
+msgid "用户管理"
+msgstr "用戶管理"
+
+msgid "角色管理"
+msgstr "角色管理"
+
+msgid "权限管理"
+msgstr "權限管理"
+
+msgid "新建"
+msgstr "新增"
+
+msgid "编辑"
+msgstr "編輯"
+
+msgid "删除"
+msgstr "刪除"
+
+msgid "搜索"
+msgstr "搜尋"
+
+msgid "确认"
+msgstr "確認"
+
+msgid "取消"
+msgstr "取消"
+
+msgid "保存"
+msgstr "儲存"
+
+msgid "提交"
+msgstr "提交"
+
+msgid "操作"
+msgstr "操作"
+
+msgid "状态"
+msgstr "狀態"
+
+msgid "创建时间"
+msgstr "建立時間"
+
+msgid "更新时间"
+msgstr "更新時間"
+
+msgid "请输入"
+msgstr "請輸入"
+
+msgid "请选择"
+msgstr "請選擇"
+
+msgid "查询"
+msgstr "查詢"
+
+msgid "重置"
+msgstr "重置"
+
+msgid "上传"
+msgstr "上傳"
+
+msgid "下载"
+msgstr "下載"
+
+msgid "导入"
+msgstr "匯入"
+
+msgid "导出"
+msgstr "匯出"
+
+msgid "关闭"
+msgstr "關閉"
+
+msgid "展开"
+msgstr "展開"
+
+msgid "收起"
+msgstr "收起"
+
+msgid "全选"
+msgstr "全選"
+
+msgid "反选"
+msgstr "反選"
+
+msgid "必填"
+msgstr "必填"
+
+msgid "请输入用户名"
+msgstr "請輸入用戶名"
+
+msgid "请输入密码"
+msgstr "請輸入密碼"
+
+msgid "登录成功"
+msgstr "登入成功"
+
+msgid "登录失败"
+msgstr "登入失敗"
+
+msgid "用户名或密码错误"
+msgstr "用戶名或密碼錯誤"
+
+msgid "操作成功"
+msgstr "操作成功"
+
+msgid "操作失败"
+msgstr "操作失敗"
+
+msgid "删除成功"
+msgstr "刪除成功"
+
+msgid "删除失败"
+msgstr "刪除失敗"
+
+msgid "新建成功"
+msgstr "新增成功"
+
+msgid "新建失败"
+msgstr "新增失敗"
+
+msgid "编辑成功"
+msgstr "編輯成功"
+
+msgid "编辑失败"
+msgstr "編輯失敗"
+
+msgid "系统设置"
+msgstr "系統設定"
+
+msgid "个人信息"
+msgstr "個人資訊"
+
+msgid "修改密码"
+msgstr "修改密碼"
+
+msgid "用户列表"
+msgstr "用戶清單"
+
+msgid "角色列表"
+msgstr "角色清單"
+
+msgid "角色名称"
+msgstr "角色名稱"
+
+msgid "角色描述"
+msgstr "角色說明"
+
+msgid "是否启用"
+msgstr "是否啟用"
+
+msgid "是"
+msgstr "是"
+
+msgid "否"
+msgstr "否"
+
+msgid "超级管理员"
+msgstr "超級管理員"
+
+msgid "邮箱"
+msgstr "電子郵件"
+
+msgid "手机号"
+msgstr "手機號碼"
+
+msgid "头像"
+msgstr "頭像"
+
+msgid "简介"
+msgstr "簡介"
+
+msgid "注册时间"
+msgstr "註冊時間"
+
+msgid "最后登录"
+msgstr "最後登入"
+
+msgid "总数"
+msgstr "總計"
+
+msgid "条"
+msgstr "筆"
+
+msgid "首页"
+msgstr "首頁"
+
+msgid "上一页"
+msgstr "上一頁"
+
+msgid "下一页"
+msgstr "下一頁"
+
+msgid "末页"
+msgstr "末頁"
+
+msgid "跳至"
+msgstr "跳至"
+
+msgid "分组管理"
+msgstr "分組管理"
+
+msgid "分组"
+msgstr "分組"
+
+msgid "权限列表"
+msgstr "權限清單"
+
+msgid "权限名称"
+msgstr "權限名稱"
+
+msgid "数据权限"
+msgstr "資料權限"
+
+msgid "按钮权限"
+msgstr "按鈕權限"
+
+msgid "菜单权限"
+msgstr "選單權限"
+
+msgid "授权"
+msgstr "授權"
+
+msgid "取消授权"
+msgstr "取消授權"
+
+msgid "确认删除?"
+msgstr "確認刪除？"
+
+msgid "提示"
+msgstr "提示"
+
+msgid "警告"
+msgstr "警告"
+
+msgid "错误"
+msgstr "錯誤"
+
+msgid "成功"
+msgstr "成功"
+
+msgid "信息"
+msgstr "資訊"
+
+msgid "暂无数据"
+msgstr "暫無資料"
+
+msgid "加载中"
+msgstr "載入中"
+
+msgid "请等待"
+msgstr "請稍候"
+
+msgid "返回"
+msgstr "返回"
+
+msgid "批量删除"
+msgstr "批次刪除"
+
+msgid "批量操作"
+msgstr "批次操作"
+
+msgid "已选择"
+msgstr "已選擇"
+
+msgid "条记录"
+msgstr "筆記錄"
+
+msgid "过滤"
+msgstr "篩選"
+
+msgid "高级筛选"
+msgstr "進階篩選"
+
+msgid "展开筛选"
+msgstr "展開篩選"
+
+msgid "收起筛选"
+msgstr "收起篩選"
+
+msgid "列设置"
+msgstr "欄位設定"
+
+msgid "刷新"
+msgstr "重新整理"
+
+msgid "全屏"
+msgstr "全螢幕"
+
+msgid "退出全屏"
+msgstr "退出全螢幕"
+
+msgid "时间"
+msgstr "時間"
+
+msgid "日期"
+msgstr "日期"
+
+msgid "日期时间"
+msgstr "日期時間"
+
+msgid "开始时间"
+msgstr "開始時間"
+
+msgid "结束时间"
+msgstr "結束時間"
+
+msgid "至"
+msgstr "至"
+
+msgid "今天"
+msgstr "今天"
+
+msgid "昨天"
+msgstr "昨天"
+
+msgid "本周"
+msgstr "本週"
+
+msgid "上周"
+msgstr "上週"
+
+msgid "本月"
+msgstr "本月"
+
+msgid "上月"
+msgstr "上月"
+
+msgid "本年"
+msgstr "本年"
+
+msgid "最近7天"
+msgstr "最近7天"
+
+msgid "最近30天"
+msgstr "最近30天"
+
+msgid "清空"
+msgstr "清除"
+
+msgid "文件上传"
+msgstr "文件上傳"
+
+msgid "文件大小不能超过"
+msgstr "文件大小不能超過"
+
+msgid "文件类型不支持"
+msgstr "文件類型不支援"
+
+msgid "账号"
+msgstr "帳號"
+
+msgid "昵称"
+msgstr "暱稱"
+
+msgid "性别"
+msgstr "性別"
+
+msgid "男"
+msgstr "男"
+
+msgid "女"
+msgstr "女"
+
+msgid "未知"
+msgstr "未知"
+
+msgid "超时"
+msgstr "逾時"
+
+msgid "令牌"
+msgstr "令牌"
+
+msgid "刷新令牌"
+msgstr "刷新令牌"

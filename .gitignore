@@ -1,0 +1,54 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# 虛擬環境
+venv/
+.venv/
+env/
+
+# 環境變數（含機密資訊，請勿提交）
+backend/.env
+.env
+
+# 資料庫檔案
+backend/data/
+*.db
+*.sqlite
+*.sqlite3
+
+# 編譯後的翻譯檔（由 .po 重新編譯）
+backend/locale/zh_TW/LC_MESSAGES/messages.mo
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# 日誌
+logs/
+*.log
+
+# 暫存
+*.tmp
+*.bak
