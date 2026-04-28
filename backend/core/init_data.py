@@ -23,6 +23,22 @@ def _init_sync(session: Session):
         session.add(role)
         session.flush()
 
+    # 若舊的 root 帳號存在，直接改名為 nutc30
+    old_root = session.scalar(select(User).where(User.username == "root"))
+    if old_root:
+        old_root.username = "nutc30"
+        session.flush()
+        # 同步更新 casbin g-rule（u:root → u:nutc30）
+        old_g = session.scalar(
+            select(CasbinRule).where(
+                CasbinRule.ptype == "g",
+                CasbinRule.v0 == "u:root",
+            )
+        )
+        if old_g:
+            old_g.v0 = "u:nutc30"
+            session.flush()
+
     user = session.scalar(select(User).where(User.username == "nutc30"))
     if not user:
         user = User(
