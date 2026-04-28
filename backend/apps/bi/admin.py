@@ -9,12 +9,15 @@ from fastapi import Request
 
 
 class DashboardAdmin(PageAdmin):
-    """儀表板首頁"""
+    """儀表板首頁（取代預設 HomeAdmin，成為登入後預設頁）"""
     page_schema = PageSchema(
         label="儀表板",
         icon="fa fa-home",
-        sort=10,
+        url="/home",          # 與 HomeAdmin 使用同一路徑，覆蓋之
+        isDefaultPage=True,
+        sort=100,
     )
+    page_path = "/home"
 
     async def get_page(self, request: Request) -> Page:
         return Page(

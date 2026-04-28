@@ -26,6 +26,10 @@ from apps.ai.admin import AIApp
 from apps.fi.admin import FIApp
 from apps.mm.admin import MMApp
 
+# 移除框架預設的 HomeAdmin（由 DashboardAdmin 取代）
+from fastapi_amis_admin.admin.site import HomeAdmin
+site.unregister_admin(HomeAdmin)
+
 # 向 Admin Site 註冊所有模組
 site.register_admin(BIApp, AIApp, FIApp, MMApp)
 

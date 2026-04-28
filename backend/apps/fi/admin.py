@@ -43,13 +43,13 @@ class AccountBalanceAdmin(ModelAdmin):
     ordering = [AccountBalance.acct_code]
 
     # 唯讀（view 不允許異動）
-    async def has_create_permission(self, request: Request, obj=None) -> bool:
+    async def has_create_permission(self, request: Request, obj=None, data=None) -> bool:
         return False
 
-    async def has_update_permission(self, request: Request, obj=None) -> bool:
+    async def has_update_permission(self, request: Request, obj=None, data=None) -> bool:
         return False
 
-    async def has_delete_permission(self, request: Request, obj=None) -> bool:
+    async def has_delete_permission(self, request: Request, obj=None, data=None) -> bool:
         return False
 
 
@@ -83,13 +83,13 @@ class ARDetailAdmin(ModelAdmin):
     ordering = [ARDetail.doc_date.desc()]
 
     # 唯讀（view 不允許異動）
-    async def has_create_permission(self, request: Request, obj=None) -> bool:
+    async def has_create_permission(self, request: Request, obj=None, data=None) -> bool:
         return False
 
-    async def has_update_permission(self, request: Request, obj=None) -> bool:
+    async def has_update_permission(self, request: Request, obj=None, data=None) -> bool:
         return False
 
-    async def has_delete_permission(self, request: Request, obj=None) -> bool:
+    async def has_delete_permission(self, request: Request, obj=None, data=None) -> bool:
         return False
 
 
